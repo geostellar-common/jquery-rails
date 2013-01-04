@@ -69,7 +69,7 @@
     // Form elements bound by jquery-ujs
     // NOTE: changing this selector from 'form' to 'form[data-form]' because
     // targetting all forms was causing problems in non rails pages.
-    formSubmitSelector: 'form[data-form]',
+    formSubmitSelector: 'form[data-remote]',
 
     // Form input elements bound by jquery-ujs
     formInputClickSelector: 'form input[type=submit], form input[type=image], form button[type=submit], form button:not([type])',
